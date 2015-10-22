@@ -2,13 +2,17 @@
 ## Docs: http://hexo.io/docs/configuration.html
 ## Source: https://github.com/hexojs/hexo/
 
+# Render drafts
+#render_drafts: true
+
+# Site Encoding
 encoding: UTF-8
 
 # Site
 title: 抉择
 subtitle:
 description:
-author: Mclamee 张 - quietdog
+author: <a href="http://github.com/quietdog">Mclamee 张 - quietdog</a>
 language: zh-Hans
 timezone: Asia/Shanghai
 
@@ -99,6 +103,11 @@ links_title: Links
 # links
 links:
   MIND HACKS: http://mindhacks.cn/
+  MacTalk: http://macshuo.com/
+  阮一峰: http://www.ruanyifeng.com/blog/
+  酷壳: http://coolshell.cn/
+  战隼: http://www.read.org.cn/
+  褪墨: http://www.mifengtd.cn/
 
 # Creative Commons 4.0 International License.
 # http://creativecommons.org/
@@ -124,3 +133,27 @@ since: 2015
 # =============================================================================
 # End NexT Theme configuration
 # =============================================================================
+
+# 百度分享左侧菜单栏，关闭则设置为 false
+## 若想要自定义可以参考官网http://share.baidu.com/，修改theme/next/layout/_scripts/baidushare.swig
+baidushare: false
+
+## 文章末尾是否显示打赏按钮
+donate: 
+  enable: true
+  text: 如果觉得我的文章对您有用，请随意打赏。您的支持将鼓励我继续创作！
+  alipay: /donate/alipay.png
+  wechat: /donate/weichatpay.jpg
+
+# Search
+tinysou_Key: 
+
+# 备案信息
+beian: 备案去屎
+
+# cnzz
+cnzz: 
+	enable: true
+	stat_icon: 1256605882
+	server: s4.cnzz.com
+	id: 3D1256605882
